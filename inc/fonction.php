@@ -24,4 +24,17 @@ function getManager($id){
    }
    return 0 ;
 }
+function getDept_emp($dept_no){
+    $request="select last_name,hire_date,first_name,gender,dept_no from employees  join dept_emp on dept_emp.emp_no=employees.emp_no  where dept_emp.dept_no='%s'" ;
+    $request=sprintf($request ,$dept_no) ;
+    $result=mysqli_query(dbconnect(),$request) ;
+    if(mysqli_num_rows($result)){
+        for($i=0;$i<mysqli_num_rows($result);$i++){
+            $val[$i]=mysqli_fetch_assoc($result) ;
+        }
+    return $val ;
+    }
+return 0 ;
+}
+
 ?>

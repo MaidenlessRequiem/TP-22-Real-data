@@ -14,7 +14,7 @@ $dept_no=$liste[$i]['dept_no'] ;
 $manager=getManager($dept_no) ;
     ?>
     <tr>
-        <td><?= $liste[$i]['dept_name'] ?></td>
+        <td><a href="dept_emp.php?id=<?= $liste[$i]['dept_no']?>"><?= $liste[$i]['dept_name'] ?></a></td>
         <td><?= $manager['first_name']  .'   '. $manager['last_name']?></td>
     </tr>
     <?php
