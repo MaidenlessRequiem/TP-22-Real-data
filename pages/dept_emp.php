@@ -39,11 +39,15 @@ $manager=getManager($dept_no) ;
 ?>
 </table>
 </div>
-<?php 
+<div class="row">
+    <?php 
 if($toshow-10 >0){
-?><a href="dept_emp.php?return=0&&id=<?= $dept_no?>">PREVIOUS PAGE</a>
+?>
+
+<a class="col-6" href="dept_emp.php?return=0&&id=<?= $dept_no?>">PREVIOUS PAGE</a>
 <?php } ?>
-<a href="dept_emp.php?last_shown=<?= $toshow ?>&&id=<?= $dept_no?>">NEXT PAGE</a>
+<a class="col-6" href="dept_emp.php?last_shown=<?= $toshow ?>&&id=<?= $dept_no?>">NEXT PAGE</a>
+</div>
 <?php 
 require("../inc/footer.php") ;
 ?>
