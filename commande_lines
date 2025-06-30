@@ -1,0 +1,1000 @@
+  984  cd /opt/lampp/bin
+  985  ./mysqli -u ETU003964 -h 172.16.0.147 -p jV8bPgbK~
+  986  ./mysql -u ETU003964 -h 172.16.0.147 -p jV8bPgbK~
+  987  ./mysql -u ETU003964 -h 172.16.0.147 -p 
+  988  cleaar
+  989  clear
+  990  cd /home
+  991  cd /etc
+  992  l
+  993  etc/paasw
+  994  cd passwd
+  995  cat passwd
+  996  clear
+  997  ls -latin
+  998  clear
+  999  l
+ 1000  clear
+ 1001  l-d
+ 1002  l -d
+ 1003  l -ad
+ 1004  ls -ad
+ 1005  ls 
+ 1006  cd group
+ 1007  cat group
+ 1008  clear
+ 1009  ls
+ 1010  clear
+ 1011  ls
+ 1012  passwd
+ 1013  clear
+ 1014  exit
+ 1015  exit
+ 1016  cd /etc ; sudo grep'user2' passwd.back ;
+ 1017  cd /etc ; sudo grep 'user2' passwd.back ;
+ 1018  cd /etc ; sudo grep 'user2' passwd ;
+ 1019  cd /etc ; sudo grep 'user2' passwd.back ;
+ 1020  clear
+ 1021  exit
+ 1022  cd /etc ; sudo grep 'user1' passwd ;
+ 1023  useradd -D user2
+ 1024  useradd -D
+ 1025  sudo useradd -D
+ 1026  clear
+ 1027  sudo useradd -D
+ 1028  exit
+ 1029  l
+ 1030  l -a
+ 1031  clear
+ 1032  sudo su
+ 1033  E
+ 1034  sudo su
+ 1035  exit
+ 1036  man grep
+ 1037  grep ':'
+ 1038  cd /etc/
+ 1039  grep ':' passwd
+ 1040  grep 'ch' passwd
+ 1041  grep 'bash' passwd
+ 1042  clear
+ 1043  man bas
+ 1044  man bash
+ 1045  clea
+ 1046  clear
+ 1047  aiza
+ 1048  man wc
+ 1049  grep '/bin/bash' passwd
+ 1050  serial
+ 1051  alias 'aiza'='pwd'
+ 1052  aiza
+ 1053  user
+ 1054  cd ../
+ 1055  adduser 
+ 1056  sudo useradd
+ 1057  clear
+ 1058  sudo add user1 ;
+ 1059  sudo useradd user1 ;
+ 1060  cd /etc ; grep 'user1' ;
+ 1061  cd /etc ; grep 'user1' passwd 
+ 1062  man useradd
+ 1063  man adduser
+ 1064  cd /etc ; grep 'user1' passwd ;
+ 1065  users
+ 1066  cd /home
+ 1067  l
+ 1068  cd /etc ; grep 'user1' shadow ;
+ 1069  cd /etc ; sudo grep 'user1' shadow ;
+ 1070  sudo grep 'user1' shadow ;
+ 1071  sudo su
+ 1072  exit
+ 1073  cd /opt/skel ;
+ 1074  cd /etc/skel ;
+ 1075  l
+ 1076  ls -a
+ 1077  sudo cat .bashrc 
+ 1078  less .bashrc 
+ 1079  cd /etc/
+ 1080  man usermod
+ 1081  clear
+ 1082  sudo su
+ 1083  ~
+ 1084  l
+ 1085  clear
+ 1086  passwd -S user1 ;
+ 1087  sudo passwd -S user1 ;
+ 1088  group
+ 1089  man group
+ 1090  sudo 
+ 1091  sudo su 
+ 1092  exit
+ 1093  nano
+ 1094  cd /opt/bin
+ 1095  cd /opt/lampp/bin
+ 1096  mysql -u root
+ 1097  ./mysql -u root
+ 1098  alias sql="./mysql -u root -p"
+ 1099  clear
+ 1100  sql
+ 1101  cd /opt/lampp/manager-linux-x64.run
+ 1102  sudo /opt/lampp/manager-linux-x64.run
+ 1103  xampp --version
+ 1104  xampp 
+ 1105  cd /opt/lampp/manager-linux-x64.run
+ 1106  sudo cd /opt/lampp/manager-linux-x64.run
+ 1107  sudo /opt/lampp/manager-linux-x64.run
+ 1108  javac Domino.jav
+ 1109  javac Domino.java
+ 1110  javac Player.java
+ 1111  javac Game.java
+ 1112  cleart
+ 1113  clear
+ 1114  javac Player.java
+ 1115  javac Game.java
+ 1116  clear
+ 1117  javac Game.java
+ 1118  javac Player.java
+ 1119  javac Game.java
+ 1120  clear
+ 1121  javac Game.java
+ 1122  clear
+ 1123  javac Player.java
+ 1124  javac Game.java
+ 1125  javac Main.java
+ 1126  java Main
+ 1127  cd /opt/lampp/bin
+ 1128  ./mysql -u root
+ 1129  sudo /opt/lampp/manager-linux-x64.run
+ 1130  chmod 777 alisa.sh
+ 1131  chmod 777 alias.sh
+ 1132  cd /opt/lampp/bin
+ 1133  ./mysql -u ETU -h 172.60.255.247 -p
+ 1134  ./mysql -u ETU003964 -h 172.60.255.247 -p
+ 1135  cd /opt/lampp/bin
+ 1136  ./mysql -u root
+ 1137  gcc -lm -o palindrome.c tst
+ 1138  gcc -lm -o palindrome.c tst ; ./tst
+ 1139  gcc  -o palindrome.c tst ; ./tst
+ 1140  gcc -lm  palindrome.c -o  tst ; ./tst
+ 1141  gcc   palindrome.c -o -lm  tst
+ 1142  gcc -lm  palindrome.c -o   tst
+ 1143  gcc  -lmo  palindrome.c    tst
+ 1144  gcc  -lm -o  palindrome.c    tst
+ 1145  clear
+ 1146  gcc palindrome.c -o tst
+ 1147  history | grep 'gcc'
+ 1148  gcc palindrome.c  -lm -o tst
+ 1149  ./tst
+ 1150  clear
+ 1151  gcc palindrome.c  -lm -o tst
+ 1152  ./tst
+ 1153  gcc palindrome.c  -lm -o tst ;./tst
+ 1154  clear
+ 1155  gcc palindrome.c  -lm -o tst ;./tst
+ 1156  clear
+ 1157  gcc palindrome.c  -lm -o tst ;./tst
+ 1158  clear
+ 1159  gcc palindrome.c  -lm -o tst ;./tst
+ 1160  clear
+ 1161  gcc palindrome.c  -lm -o tst ;./tst
+ 1162  clear
+ 1163  gcc palindrome.c  -lm -o tst ;./tst
+ 1164  clear
+ 1165  gcc palindrome.c  -lm -o tst ;./tst
+ 1166  clear
+ 1167  gcc palindrome.c  -lm -o tst ;./tst
+ 1168  clear
+ 1169  gcc palindrome.c  -lm -o tst ;./tst
+ 1170  clear
+ 1171  gcc palindrome.c  -lm -o tst ;./tst
+ 1172  clear
+ 1173  gcc palindrome.c  -lm -o tst ;./tst
+ 1174  clear
+ 1175  gcc palindrome.c  -lm -o tst ;./tst
+ 1176  clear
+ 1177  gcc palindrome.c  -lm -o tst ;./tst
+ 1178  clear
+ 1179  gcc palindrome.c  -lm -o tst ;./tst
+ 1180  clear
+ 1181  javac *java ;
+ 1182  java Main ;
+ 1183  clear
+ 1184  java Main
+ 1185  javac DominoGame.java 
+ 1186  java DominoGame 
+ 1187  javac DominoGame.java 
+ 1188  java DominoGame 
+ 1189  javac DominoGame.java 
+ 1190  java DominoGame 
+ 1191  javac DominoGame.java 
+ 1192  java DominoGame 
+ 1193  javac DominoGame.java 
+ 1194  java DominoGame 
+ 1195  javac DominoGame.java 
+ 1196  java DominoGame 
+ 1197  javac DominoGame.java 
+ 1198  java DominoGame 
+ 1199  javac DominoGame.java 
+ 1200  java DominoGame 
+ 1201  clear
+ 1202  java DominoGame 
+ 1203  javac DominoGame.java 
+ 1204  java DominoGame 
+ 1205  javac DominoGame.java 
+ 1206  java DominoGame 
+ 1207  javac DominoGame.java 
+ 1208  java DominoGame 
+ 1209  javac DominoGame.java 
+ 1210  java DominoGame 
+ 1211  javac DominoGame.java 
+ 1212  java DominoGame 
+ 1213  c
+ 1214  clear
+ 1215  nanop
+ 1216  nano
+ 1217  clear
+ 1218  cd
+ 1219  ls -alina /
+ 1220  ls -Ralina /
+ 1221  ls -Ralina / | grep '.bashrc'
+ 1222  sudo ls -Ralina / | sudo grep '.bashrc'
+ 1223  cd
+ 1224  clear
+ 1225  cd bahsrc
+ 1226  cd .bahsrc
+ 1227  sud cd .bahsrc
+ 1228  sudo cd .bahsrc
+ 1229  jv(){ javac "$@" -d . ; } 
+ 1230  cd perso
+ 1231  cd Perso
+ 1232  cd code
+ 1233  cd Code
+ 1234  cd java
+ 1235  cd Domy
+ 1236  jv(DominoGame.java) ;
+ 1237  pwd
+ 1238  [200~/home/itu/Perso/Code/java/Domy
+ 1239  ~
+ 1240  cd /home/itu/Perso/Code/java/Domy
+ 1241  jv(){ javac "$@" -d . ; } 
+ 1242  jv(DominoGame.java)
+ 1243  jv(){ javac "$1" -d .  } ; ;
+ 1244  jv(){ javac "$1" -d .  ; } ; ;
+ 1245  jv(){ javac "$1" -d .  ; } ; 
+ 1246  jv(DominoGame.java)
+ 1247  clear
+ 1248  unset -jv
+ 1249  clear
+ 1250  javac Dominogame.java
+ 1251  javac DominoGame.java
+ 1252  java DominoGame.java
+ 1253  java DominoGame
+ 1254  javac PointPolygonGame.java 
+ 1255  javac PointPolygonGame.java > log
+ 1256  javac PointPolygonGame.java 2 > log
+ 1257  javac PointPolygonGame.java log > 2  
+ 1258  javac PointPolygonGame.java log < 2  
+ 1259  javac PointPolygonGame.java >2 log
+ 1260  javac PointPolygonGame.java 2>log
+ 1261  java PointPolygonGame
+ 1262  javac PointPolygonGame.java 
+ 1263  clear
+ 1264  PointPolygonGame
+ 1265  java PointPolygonGame
+ 1266  PointPolygonGame
+ 1267  javac PointPolygonGame.java 
+ 1268  java PointPolygonGame
+ 1269  javac PointPolygonGame.java 
+ 1270  java PointPolygonGame
+ 1271  javac PointPolygonGame.java 
+ 1272  java PointPolygonGame
+ 1273  javac PointPolygonGame.java 
+ 1274  java PointPolygonGame
+ 1275  javac PointPolygonGame.java 
+ 1276  java PointPolygonGame
+ 1277  javac PointPolygonGame.java 
+ 1278  java PointPolygonGame
+ 1279  javac PointPolygonGame.java 
+ 1280  java PointPolygonGame
+ 1281  javac PointPolygonGame.java 
+ 1282  javac PointPolygonGame.java 2>log
+ 1283  java Main
+ 1284  java DominoGame
+ 1285  javac Primesum.java
+ 1286  javac PrimeSum.java
+ 1287  java PrimeSum
+ 1288  gcc con.c  -lm -o tst ;./tst
+ 1289  clear
+ 1290  gcc con.c  -lm -o tst ;./tst
+ 1291  clear
+ 1292  gcc con.c  -lm -o tst ;./tst
+ 1293  clear
+ 1294  gcc con.c  -lm -o tst ;./tst
+ 1295  clear
+ 1296  gcc con.c  -lm -o tst ;./tst
+ 1297  clear
+ 1298  gcc con.c  -lm -o tst ;./tst
+ 1299  clear
+ 1300  exit
+ 1301  java DominoGame
+ 1302  gcc con.c  -lm -o tst ;./tst
+ 1303  chmod 777 PrimeSum.java
+ 1304  javac PrimeSum.java
+ 1305  java PrimeSum
+ 1306  exit
+ 1307  java DominoGame
+ 1308  sudo apt install git
+ 1309  sudo get apt git
+ 1310  sudo getapt git
+ 1311  sudo apt install git
+ 1312  javac PrimeSum.java
+ 1313  java PrimeSum
+ 1314  gcc con.c  -lm -o tst ;./tst
+ 1315  clear
+ 1316  gcc con.c  -lm -o tst ;./tst
+ 1317  clear
+ 1318  gcc con.c  -lm -o tst ;./tst
+ 1319  clear
+ 1320  gcc con.c  -lm -o tst ;./tst
+ 1321  clear
+ 1322  gcc con.c  -lm -o tst ;./tst
+ 1323  clear
+ 1324  gcc con.c  -lm -o tst ;./tst
+ 1325  clear
+ 1326  gcc con.c  -lm -o tst ;./tst
+ 1327  clear
+ 1328  gcc con.c  -lm -o tst ;./tst >log.com
+ 1329  gcc con.c  -lm -o tst ;./tst >log.con
+ 1330  gcc con.c  -lm -o tst ;./tst
+ 1331  clear
+ 1332  gcc con.c  -lm -o tst ;./tst >log.con
+ 1333  sudo  apt-get install git
+ 1334  sudo dpkg --configure -a
+ 1335  sudo  apt-get install git
+ 1336  git --version
+ 1337  git 
+ 1338  git config
+ 1339  ; git config --global user.email johndoe@example.com
+ 1340  cd ../
+ 1341  sudo lampp/manager-linux-x64.run
+ 1342  sudo /opt/lampp/manager-linux-x64.run
+ 1343  clear
+ 1344  [2~
+ 1345  clear
+ 1346  cat /etc/group
+ 1347  clear
+ 1348  cd /etc
+ 1349  ls
+ 1350  clear
+ 1351  group add cobaye
+ 1352  groupadd cobaye
+ 1353  sudo groupadd cobaye
+ 1354  cat /etc/group | grep'cobaye'
+ 1355  cat /etc/group | grep 'cobaye'
+ 1356  sudo cat /etc/gshadow | grep '2081'
+ 1357  sudo cat /etc/gshadow 
+ 1358  groupdel
+ 1359  groupdel cobaye
+ 1360  sudo groupdel cobaye
+ 1361  clcear
+ 1362  clear
+ 1363  man groupadd
+ 1364  sudo groupadd cobaye -p 'mdp'
+ 1365  sudo cat /etc/gshadow | grep '2081'
+ 1366  sudo cat /etc/gshadow | grep 'cobaye'
+ 1367  sudo cat /etc/group | grep 'cobaye'
+ 1368  sudo cat /etc/passwd  
+ 1369  clear
+ 1370  sudo userdel user3
+ 1371  clear
+ 1372  vi
+ 1373  exit
+ 1374  cd etc
+ 1375  cd /etc
+ 1376  man vi
+ 1377  vi passwd
+ 1378  man
+ 1379  man vi
+ 1380  vim passwd
+ 1381  vi passwd
+ 1382  clear
+ 1383  vi 
+ 1384  exit
+ 1385  javac Main.java
+ 1386  clear
+ 1387  javac Main.java
+ 1388  clear
+ 1389  javac Main.java
+ 1390  clear
+ 1391  javac Main.java
+ 1392  clear
+ 1393  javac Main.java
+ 1394  java Main
+ 1395  javac Main.java
+ 1396  clear
+ 1397  javac Main.java
+ 1398  clear
+ 1399  javac Main.java
+ 1400  javac -d . btn.java
+ 1401  clear
+ 1402  javac -d . btn.java
+ 1403  javac -d . Ecoute.java
+ 1404  clear
+ 1405  javac -d . Ecoute.java
+ 1406  clear
+ 1407  javac -d . Listener.java][
+ 1408  javac -d . Listener.java
+ 1409  clear
+ 1410  javac -d . Listener.java
+ 1411  clear
+ 1412  javac -d . Listener.java
+ 1413  clear
+ 1414  javac -d . Listener.java
+ 1415  clear
+ 1416  javac -d . Listener.java
+ 1417  javac -d . Listener.java
+ 1418  clear
+ 1419  javac -d . Listener.java
+ 1420  javac -d . Main
+ 1421  javac -d . Main.java
+ 1422  clear
+ 1423  java aff.Main
+ 1424  clear
+ 1425  javac -d . Main.java
+ 1426  java aff.Main
+ 1427  clear
+ 1428  java aff.Main
+ 1429  javac -d . Main.java
+ 1430  java aff.Main
+ 1431  clear
+ 1432  javac -d . Formulaire.java
+ 1433  javac -d . Main.java
+ 1434  java aff.Main
+ 1435  javac -d . Formulaire.java
+ 1436  java aff.Main
+ 1437  javac -d . Formulaire.java
+ 1438  javac -d . Main.java
+ 1439  java aff.Main
+ 1440  javac -d . Formulaire.java
+ 1441  javac -d . Main.java
+ 1442  java aff.Main
+ 1443  javac -d . Formulaire.java
+ 1444  java aff.Main
+ 1445  cleatr
+ 1446  java aff.Main
+ 1447  javac -d . Formulaire.java
+ 1448  java aff.Main
+ 1449  clear
+ 1450  java aff.Main
+ 1451  javac -d . Formulaire.java
+ 1452  java aff.Main
+ 1453  javac -d . Formulaire.java
+ 1454  java aff.Main
+ 1455  javac -d . Formulaire.java
+ 1456  java aff.Main
+ 1457  javac -d . Formulaire.java
+ 1458  java aff.Main
+ 1459  javac -d . Formulaire.java
+ 1460  java aff.Main
+ 1461  javac -d . Formulaire.java
+ 1462  java aff.Main
+ 1463  javac -d . Formulaire.java
+ 1464  java aff.Main
+ 1465  clear
+ 1466  sudo /opt/lampp/manager-linux-x64.run
+ 1467  sudo chmod 777 -R Election
+ 1468  cowsay 'lol'
+ 1469  sudo apt install cowsay
+ 1470  gooner
+ 1471  cowsay 'lol'
+ 1472  cowsay 'SKILL ISSUE'
+ 1473  cleara
+ 1474  clear
+ 1475  2048
+ 1476  clear
+ 1477  exit
+ 1478  gcc 19.06.c -lm -o tst
+ 1479  cd MATH\(GROUPE\)/
+ 1480  gcc 19.06.c -lm -o tst
+ 1481  clear
+ 1482  ./tst
+ 1483  gcc 19.06.c -lm -o tst
+ 1484  ./tst
+ 1485  gcc 19.06.c -lm -o tst
+ 1486  ./tst
+ 1487  gcc 19.06.c -lm -o tst
+ 1488  ./tst
+ 1489  gcc 19.06.c -lm -o tst
+ 1490  ./tst
+ 1491  gcc 19.06.c -lm -o tst ;./ tst
+ 1492  gcc 19.06.c -lm -o tst ;./tst
+ 1493  clear
+ 1494  gcc 19.06.c -lm -o tst ;./tst
+ 1495  clear
+ 1496  gcc 19.06.c -lm -o tst ;./tst
+ 1497  clear
+ 1498  gcc 19.06.c -lm -o tst ;./tst
+ 1499  clear
+ 1500  gcc 19.06.c -lm -o tst ;./tst
+ 1501  sudo chmod -w -a elprimo69 
+ 1502  sudo chmod -w  elprimo69 
+ 1503  sudo chmod -www  elprimo69 
+ 1504  sudo chmod r--r--r--  elprimo69 
+ 1505  sudo chmod 444  elprimo69 
+ 1506  nano
+ 1507  javac Formulair.java
+ 1508  javac Formulaire.java
+ 1509  java Formulaire
+ 1510  javac -d . *.java
+ 1511  java Formulaire
+ 1512  javac -d . *.java
+ 1513  java Formulaire
+ 1514  javac -d . *.java
+ 1515  clear
+ 1516  javac -d . *.java
+ 1517  javac -d . Formulaire.java
+ 1518  javac -d . *.java
+ 1519  java aff.Main
+ 1520  clear
+ 1521  java aff.Main
+ 1522  javac -d . *.java
+ 1523  java aff.Main
+ 1524  clear
+ 1525  javac -d . *.java
+ 1526  javac -Xlint -d . *.java
+ 1527  clear
+ 1528  javac -d . *.java
+ 1529  java aff.Main
+ 1530  javac -d . *.java
+ 1531  java aff.Main
+ 1532  clear
+ 1533  javac -d . *.java
+ 1534  clear
+ 1535  java aff.Main
+ 1536  javac -d . *.java
+ 1537  java aff.Main
+ 1538  javac -d . *.java
+ 1539  java aff.Main
+ 1540  javac -d . *.java
+ 1541  java aff.Main
+ 1542  javac -d . *.java
+ 1543  java aff.Main
+ 1544  javac -d . *.java
+ 1545  java aff.Main
+ 1546  javac -d . *.java
+ 1547  java aff.Main
+ 1548  javac -d . *.java
+ 1549  java aff.Main
+ 1550  javac -d . *.java
+ 1551  java aff.Main
+ 1552  javac -d . *.java
+ 1553  java aff.Main
+ 1554  javac -d . *.java
+ 1555  java aff.Main
+ 1556  javac -d . *.java
+ 1557  java aff.Main
+ 1558  clear
+ 1559  javac -d . *.java
+ 1560  clear
+ 1561  javac -d . *.java
+ 1562  clear
+ 1563  java aff.Main
+ 1564  clear
+ 1565  java aff.Main
+ 1566  javac -d . *.java
+ 1567  java aff.Main
+ 1568  javac -d . *.java
+ 1569  java aff.Main
+ 1570  javac -d . *.java
+ 1571  java aff.Main
+ 1572  javac -d . *.java
+ 1573  java aff.Main
+ 1574  clear
+ 1575  javac -d . *.java
+ 1576  clear
+ 1577  java aff.Main
+ 1578  clear
+ 1579  javac -d . *.java
+ 1580  javac -d . ChoixCascade.java.java
+ 1581  javac -d . ChoixCascade.java
+ 1582  javac -d . ChoixCascade.java.java
+ 1583  javac -d . *.java
+ 1584  clear
+ 1585  javac -d . Formulaire.java 
+ 1586  javac -d . ChoixCascade.java.java
+ 1587  javac -d . ChoixCascade.java
+ 1588  javac -d . Formulaire.java 
+ 1589  javac -d . *.java
+ 1590  clear
+ 1591  javac -d . *.java
+ 1592  clear
+ 1593  javac -d . 
+ 1594  javac -d . Bureau.java 
+ 1595  javac -d . Distrika.java.java 
+ 1596  javac -d . Distrika.java
+ 1597  javac -d . Candidat.java.java
+ 1598  javac -d . Candidat.java
+ 1599  javac -d . *.java
+ 1600  javac -d . Province.java 
+ 1601  javac -d . .java 
+ 1602  javac -d . *.java 
+ 1603  chmo 777 el
+ 1604  chmo 777 Election
+ 1605  chmod 777 Election
+ 1606  clear
+ 1607  exit
+ 1608  chmod 777 Election2.0/
+ 1609  chmod 777 Election/
+ 1610  exit
+ 1611  javac -d . *.java
+ 1612  clear
+ 1613  javac -d . *.java
+ 1614  javac -d . *Formulaire.java
+ 1615  clear
+ 1616  javac -d . *Formulaire.java
+ 1617  java --version
+ 1618  java -version
+ 1619  clear
+ 1620  javac Formulaire.java 
+ 1621  javac -d . *.java 
+ 1622  javac Formulaire.java 
+ 1623  javac -version
+ 1624  clear
+ 1625  javac -version
+ 1626  jdk
+ 1627  clear
+ 1628  javac -d . *.java 
+ 1629  javac Formulaire.java 
+ 1630  javac -d . *.java 
+ 1631  javac Formulaire.java 
+ 1632  clear
+ 1633  java -version
+ 1634  javac Main.java 
+ 1635  java Main
+ 1636  javac Main.java 
+ 1637  java Main
+ 1638  javac Main.java ]
+ 1639  javac Main.java 
+ 1640  clear
+ 1641  javac -d . *.java 
+ 1642  clear
+ 1643  javac -d . *.java 
+ 1644  clear
+ 1645  java Main
+ 1646  javac -d . *.java 
+ 1647  clear
+ 1648  javac -d . *.java 
+ 1649  clear
+ 1650  javac -d . Choix.java
+ 1651  javac -d . *.java 
+ 1652  javac -d . Main
+ 1653  javac -d . Main.java
+ 1654  clearr
+ 1655  javac -d . Main.java
+ 1656  Main.java
+ 1657  java Main
+ 1658  javac -d . Main.java
+ 1659  javac -d . *.java
+ 1660  javac -d . Main.java
+ 1661  java Main
+ 1662  clear 
+ 1663  javac -d . Candidat.java 
+ 1664  clear
+ 1665  javac -d . Candidat.java ; javac -d . Distrika.java 
+ 1666  sudo /opt/lampp/manager-linux-x64.run
+ 1667  javac -d . Formulaire.java 
+ 1668  javac -d . Formulaire.java
+ 1669  javac -d . *.java
+ 1670  javac -d . Choix.java
+ 1671  javac -d . *.java
+ 1672  java Main
+ 1673  cd ecoute
+ 1674  javac -d . *.java
+ 1675  java Main
+ 1676  cd ../
+ 1677  javac -d . *.java
+ 1678  java Maib
+ 1679  java Main
+ 1680  cd ecoute/
+ 1681  javac -d . *.java
+ 1682  cd ../
+ 1683  javac -d . *.java
+ 1684  java Main
+ 1685  clear
+ 1686  javac -d . *.java
+ 1687  java Main
+ 1688  cd ecoute/
+ 1689  javac -d . *.java
+ 1690  cd ../
+ 1691  javac -d . *.java
+ 1692  java Main
+ 1693  clear
+ 1694  ssh
+ 1695  man ssh
+ 1696  clear
+ 1697  cat /etc/passwd
+ 1698  cat /etc/shadow
+ 1699  sudo cat /etc/shadow
+ 1700  clear
+ 1701  man adduser
+ 1702  password
+ 1703  passwd
+ 1704  adduser olona
+ 1705  sudo adduser olona
+ 1706  clear
+ 1707  user10
+ 1708  exit
+ 1709  clear
+ 1710  ip a
+ 1711  exit
+ 1712  clear
+ 1713  ping 172.30.154.106
+ 1714  clear
+ 1715  scp user10@172.30.153.106:/home/user10/tp_droit_et_acces.pdf /homt/itu
+ 1716  scp user10@172.30.153.106:/home/user10/tp_droit_et_acces.pdf /home/itu
+ 1717  ping 172.30.154.106
+ 1718  ssh user10@172.30.154.106
+ 1719  ssh user10@172.30.153.106
+ 1720  ssh itu@172.30.153.106
+ 1721  echo "gg">0
+ 1722  echo "gg">1
+ 1723  echo "gg">2
+ 1724  ls
+ 1725  rm 0 ; rm 1; rm2 ;
+ 1726  rm 0 ; rm 1; rm 2 ;
+ 1727  clear
+ 1728  ssh itu@172.30.153.106
+ 1729  clear
+ 1730  ee
+ 1731  tty
+ 1732  cd /dev
+ 1733  ls
+ 1734  clear
+ 1735  ssh
+ 1736  ipconfig
+ 1737  ip a
+ 1738  clear
+ 1739  ip a
+ 1740  clewr
+ 1741  cleae
+ 1742  clear
+ 1743  ping
+ 1744  speedtest
+ 1745  sudo apt install speedtest
+ 1746  ip a
+ 1747  clear
+ 1748  sudo apt install speedtest
+ 1749  sudo snap install speedtest
+ 1750  oing 192.168.92.128
+ 1751  ping 192.168.92.128
+ 1752  clear
+ 1753  ping 192.168.92.128
+ 1754  ping a
+ 1755  ip a
+ 1756  ping 172.30.0.176
+ 1757  man usermod
+ 1758  sudo userdel olona
+ 1759  useradd user10
+ 1760  sudo useradd user10
+ 1761  passwd user10
+ 1762  sudo passwd user10
+ 1763  man usermod
+ 1764  sudo cat /etc/passwd
+ 1765  man usermod
+ 1766  sudo usermod user10 -s /bin/bash
+ 1767  man usermod
+ 1768  cd /
+ 1769  clear
+ 1770  mkdir MOMOTA
+ 1771  sudo mkdir MOMOTA
+ 1772  chmod 777 MOMOTA
+ 1773  sudo chmod 777 MOMOTA
+ 1774  sud ousermod user10 -d MOMOTA
+ 1775  sudo usermod user10 -d MOMOTA
+ 1776  sudo usermod user10 -d /MOMOTA
+ 1777  clear
+ 1778  speedtest
+ 1779  sudo snapinstall speedtest
+ 1780  sudo snap install speedtest
+ 1781  clear
+ 1782  ping 172.30.0.176
+ 1783  oing 192.168.92.128
+ 1784  ping 192.168.92.128
+ 1785  ping 172.30.0.176
+ 1786  clear
+ 1787  ip a
+ 1788  ping 172.30.0.176
+ 1789  ssh
+ 1790  man ssh
+ 1791  ping 172.30.0.176
+ 1792  clear
+ 1793  ping 172.30.0.176
+ 1794  ssh itu@172.30.0.176
+ 1795  ip a
+ 1796  "etgvevt">0
+ 1797  sudo "etgvevt">0
+ 1798  sudo "etgvevt">1
+ 1799  sudo "etgvevt" >1
+ 1800  sudo "etgvevt" > 1
+ 1801  sudo 2>"cacaec"
+ 1802  sudo su ; 2 >"cacaec"
+ 1803  ssh itu@172.30.0.176
+ 1804  ping 192.168.92.128
+ 1805  ping 192.168.92.255
+ 1806  clear
+ 1807  ip a
+ 1808  ping 172.30.0.217
+ 1809  ping 172.30.255.255
+ 1810  clear
+ 1811  tty4
+ 1812  tty
+ 1813  ttytty
+ 1814  tty
+ 1815  ssh itu@172.30.0.176
+ 1816  ip a
+ 1817  clear
+ 1818  ping 172.30.153.107
+ 1819  ssh itu@172.30.153.107
+ 1820  ssh itu10@172.30.153.107
+ 1821  ssh
+ 1822  sudo apt install ssh
+ 1823  clear
+ 1824  itu exit
+ 1825  user exit
+ 1826  man exit
+ 1827  reboot
+ 1828  javac -d . *.
+ 1829  javac -d . *.java
+ 1830  javac -Xlint -d . Choix.java
+ 1831  javac -d . *.java
+ 1832  clear
+ 1833  javac -d . *.java
+ 1834  ping 172.30.153.107
+ 1835  ssh itu@172.30.153.10
+ 1836  ping172.30.153.107
+ 1837  ping 172.30.153.107
+ 1838  ping 172.30.153.106 
+ 1839  ssh itu@172.30.153.106 
+ 1840  "172.30.153.107">>ip
+ 1841  echo "172.30.153.107">>ip
+ 1842  cat ip
+ 1843  cleaa
+ 1844  clear
+ 1845  ssh itu@172.30.0.176
+ 1846  "172.30.0.176">>ip
+ 1847  echo "172.30.0.176">>ip
+ 1848  ssh itu@172.30.153.106 
+ 1849  tty
+ 1850  cd /dev/tty7
+ 1851  cd /dev
+ 1852  ls
+ 1853  ./tty7
+ 1854  sudo ./tty7
+ 1855  clearr
+ 1856  clear
+ 1857  ip a
+ 1858  javac -d . *.java
+ 1859  clear
+ 1860  javac -d . *.java
+ 1861  clear
+ 1862  javac -d . *.java
+ 1863  clear
+ 1864  javac -d . *.java
+ 1865  cleear
+ 1866  clear
+ 1867  javac -d . *.java
+ 1868  clear
+ 1869  javac -d . *.java
+ 1870  ls
+ 1871  clear
+ 1872  javac -d . *.java
+ 1873  clear
+ 1874  javac -d . *.java
+ 1875  clear
+ 1876  javac -d . *.java
+ 1877  clesr
+ 1878  clear
+ 1879  javac -d . *.java
+ 1880  clear
+ 1881  javac -d . *.java
+ 1882  sudo /opt/lampp/manager-linux-x64.run
+ 1883  cd /opt/lampp/bin
+ 1884  ./mysql -u root
+ 1885  man mysql
+ 1886  man ./mysql
+ 1887  cd ../
+ 1888  sudo chomd 777 -R test_db-master
+ 1889  sudo chmod 777 -R test_db-master
+ 1890  clear
+ 1891  ls l
+ 1892  ls -l
+ 1893  clear
+ 1894  exit
+ 1895  sudo chmod 777 test_db-master
+ 1896  clear
+ 1897  exi
+ 1898  exit
+ 1899  test_version.sh
+ 1900  ./test_versions.sh 
+ 1901  pwd employees.sql
+ 1902  cd /opt/lampp/bin
+ 1903  ./mysql -u root < /home/itu/Downloads/test_db-master/employees.sql
+ 1904  ./mysql -u root < /home/itu/Downloads/test_db-master/test_employees_sha.sql
+ 1905  ./mysql -u root -t < /home/itu/Downloads/test_db-master/test_employees_sha.sql
+ 1906  ./mysql -u root < /home/itu/Downloads/test_db-master/employees.sql
+ 1907  ./mysql -u root -t < /home/itu/Downloads/test_db-master/test_employees_sha.sql
+ 1908  sql --version
+ 1909  mysql --version
+ 1910  clear
+ 1911  ./mysql -u root -t < /home/itu/Downloads/test_db-master/test_employees_sha.sql
+ 1912  ./mysql -u root < /home/itu/Downloads/test_db-master/employees.sql
+ 1913  ./mysql -u root -p < /home/itu/Downloads/test_db-master/employees.sql
+ 1914  ./mysql < /home/itu/Downloads/test_db-master/employees.sql
+ 1915  mysql < /home/itu/Downloads/test_db-master/employees.sql
+ 1916  ./mysql -u root < /home/itu/Downloads/test_db-master/employees.sql
+ 1917  ./mysql -u root -t < /home/itu/Downloads/test_db-master/test_employees_sha.sql
+ 1918  cd 
+ 1919  cd ./downloads
+ 1920  cd ./Downloads
+ 1921  cd test_db-master/
+ 1922  ./opt/lampp/bin/mysql -u root < employees.sql
+ 1923  /opt/lampp/bin/mysql -u root < employees.sql
+ 1924  /opt/lampp/bin/mysql
+ 1925  /opt/lampp/bin/mysql -u root
+ 1926  /opt/lampp/bin/mysql -u root < test_employees_sha.sql 
+ 1927  /opt/lampp/bin/mysql -u root -t < test_employees_sha.sql 
+ 1928  clear
+ 1929  exit
+ 1930  cd /opt/lampp/bin ; ./mysql -u root
+ 1931  clear
+ 1932  ./mysql -u root -p
+ 1933  sudo apt install speedtest
+ 1934  clear
+ 1935  speedtest
+ 1936  sudo snap install speedtest
+ 1937  clear
+ 1938  nmap -iR -sn 3
+ 1939  nmap -iR 3 -sn 
+ 1940  nmap -iR 3 -sL 
+ 1941  nmap -iR 10 -sL 
+ 1942  clear
+ 1943  /opt/lampp/bin/mysql -u root
+ 1944  cd /opt/lampp/maanager-linux-x64.run
+ 1945  cd /opt/lampp/manager-linux-x64.run
+ 1946  sudo /opt/lampp/manager-linux-x64.run
+ 1947  lgscf
+ 1948  lgcf
+ 1949  lcf
+ 1950  clear
+ 1951  cd /
+ 1952  ls
+ 1953  cd MOMOTa
+ 1954  cd MOMOTA
+ 1955  ls
+ 1956  cd ../
+ 1957  cd MOMOTA
+ 1958  cd snap
+ 1959  sudo cd snap
+ 1960  cd /
+ 1961  man useradd
+ 1962  sudo su
+ 1963  exit
+ 1964  ip a
+ 1965  ssh ubuntu@192.168.43.53
+ 1966  clear
+ 1967  exit
+ 1968  ip a
+ 1969  clear
+ 1970  ip a
+ 1971  sudo /opt/lampp/amanager-linux-x64.run
+ 1972  sudo /opt/lampp/manager-linux-x64.run
+ 1973  git remote -d
+ 1974  git remote -v
+ 1975  clear
+ 1976  git remote add origin https://github.com/MaidenlessRequiem/TP-22-Real-data
+ 1977  git remote remove origin
+ 1978  git remote add origin https://github.com/MaidenlessRequiem/TP-22-Real-data
+ 1979  git remote -v
+ 1980  git push -u origin main
+ 1981  git pull origin main --rebase
+ 1982  git push origin main
+ 1983  history > commande_lines

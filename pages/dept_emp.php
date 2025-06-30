@@ -5,6 +5,18 @@ $dept_no=$_GET['id'] ;
 $liste=getDept_emp($dept_no) ;
 $max=count($liste) ;
 $manager=getManager($dept_no) ;
+$afficher=20;
+if(isset($_GET['page_number'])){
+    $current=$afficher*$_GET['page_number'] ;
+    $page_number=$_GET['page_number'] ;
+}
+else{
+    $page_number=1 ;
+    $current=$afficher ;
+}
+if($current>$max){
+    $current=$max ;
+}
 ?>
 <br>
 <br>
@@ -23,7 +35,7 @@ $manager=getManager($dept_no) ;
     <th>RECRUITMENT DATE</th>
 </tr>
 <?php 
-for($i=0;$i<$max;$i++){
+for($i=$current-$afficher;$i<$current;$i++){
     ?>
     <tr>
         <td><?= $liste[$i]['gender']?></td>
@@ -34,6 +46,16 @@ for($i=0;$i<$max;$i++){
 }
 ?>
 </table>
+<?php if($max!=$current) {?>
+<a href="dept_emp.php?page_number=<?=  $page_number+1 ?>&&id=<?= $dept_no ?>"><button>NEXT</button></a>
+<?php 
+}
+?>
+<?php if($afficher!=$current) {?>
+<a href="dept_emp.php?page_number=<?=  $page_number-1 ?>&&id=<?= $dept_no ?>"><button>BAACK</button></a>
+<?php 
+}
+?>
 </div>
 <?php 
 require("../inc/footer.php") ;
