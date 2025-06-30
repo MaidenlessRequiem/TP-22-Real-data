@@ -36,5 +36,11 @@ function getDept_emp($dept_no){
     }
 return 0 ;
 }
-
+function Dept_name($dept_no){
+    $request="select dept_name,dept_no from departments where dept_no='%s'" ;
+$request=sprintf($request ,$dept_no) ;
+    $result=mysqli_query(dbconnect(),$request) ;
+            $val=mysqli_fetch_assoc($result) ;
+    return $val ;    
+}
 ?>

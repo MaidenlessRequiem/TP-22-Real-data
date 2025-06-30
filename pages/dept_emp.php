@@ -2,6 +2,7 @@
 require("../inc/fonction.php") ;
 require("../inc/header.php") ;
 $dept_no=$_GET['id'] ;
+$dept=Dept_name($dept_no) ;
 $liste=getDept_emp($dept_no) ;
 $max=count($liste) ;
 $manager=getManager($dept_no) ;
@@ -18,15 +19,14 @@ if($current>$max){
     $current=$max ;
 }
 ?>
+<h2 class="text-center"><strong><?= $dept['dept_name']?></strong></h2>
+
 <br>
 <br>
 <div class="container">
-    <p>
-
-<strong>DEPT NO : <?= ''.$dept_no?></strong>
-</p>
+  
 <p>
-<strong>ACTING MANAGER : <?= $manager['last_name'].' '.$manager['first_name'] ?></strong>
+<strong> MANAGER : <?= $manager['last_name'].' '.$manager['first_name'] ?></strong>
 </p>
 <table class="table table-success table-striped">
 <tr>
