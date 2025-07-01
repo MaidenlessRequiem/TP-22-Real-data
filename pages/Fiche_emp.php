@@ -47,13 +47,16 @@ $titles = get_titles_by_id($emp_no) ;
                 <th>Debut</th>
                 <th>Fin</th>
             </tr>
-            <?php foreach($salary as $sal) { ?>
+            <?php foreach($titles as $tit) { ?>
                 <tr>
-                    <td><?= $sal['salary'] ?></td>
-                    <td><?= $sal['from_date'] ?></td>
-                    <td><?= $sal['to_date'] ?></td>
+                    <td><?= $tit['salary'] ?></td>
+                    <td><?= $tit['from_date'] ?></td>
+                    <td><?= $tit['to_date'] ?></td>
                 </tr>
             <?php } ?>
         </table>  
+        <?php 
+require("../inc/footer.php") ;
+?>
 </body>
 </html>
