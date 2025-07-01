@@ -36,54 +36,44 @@ function getDept_emp($dept_no){
     }
 return 0 ;
 }
+function Dept_name($dept_no){
+    $request="select dept_name,dept_no from departments where dept_no='%s'" ;
+$request=sprintf($request ,$dept_no) ;
+    $result=mysqli_query(dbconnect(),$request) ;
+            $val=mysqli_fetch_assoc($result) ;
+    return $val ;    
+}
+function getEmp($emp_no){
+ $request="select * from employees where emp_no=%s" ;
+$request=sprintf($request ,$emp_no) ;
+    $result=mysqli_query(dbconnect(),$request) ;
+            $val=mysqli_fetch_assoc($result) ;
+    return $val ;    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+function chercher($dept_no , $name , $min , $max){
+    $request="select * from employees where 1=1 and dept_no like '%s' and first_name like  '%s' and last name like '%s' and DATEDIFF(birth_date,now()) between '%s' and '%s'  " ;
+    if($max=""){
+        $max=200 ;
+    }
+    if($min=""){
+        $min=15 ;
+    }
+    if($dept_no=="tous"){
+$dept_no="" ;
+    }
+    
+    $request=sprintf($request,$dept_no."%",$name."%",$name."%",$min."%",$max."%") ;
+    echo $request ;
+    $result=mysqli_query(dbconnect(),$request) ;
+     if($result!=false){
+        for($i=0;$i<mysqli_num_rows($result);$i++){
+            $val[$i]=mysqli_fetch_assoc($result) ;
+        }
+    return $val ;
+    }
+    return 0 ;
+}
 function get_employee_by_id($emp_no) {
     $request = "select * from employees where emp_no = '%s'" ;
     $request = sprintf($request, $emp_no) ;
@@ -109,20 +99,5 @@ function get_titles_by_id($emp_no) {
         $val = $row ;
     }
     return $val ;
-}
-function getEmp($emp_no){
- $request="select * from departments where emp_no='%s'" ;
-$request=sprintf($request ,$emp_no) ;
-    $result=mysqli_query(dbconnect(),$request) ;
-            $val=mysqli_fetch_assoc($result) ;
-    return $val ;    
-
-}
-function Dept_name($dept_no){
-    $request="select dept_name,dept_no from departments where dept_no='%s'" ;
-$request=sprintf($request ,$dept_no) ;
-    $result=mysqli_query(dbconnect(),$request) ;
-            $val=mysqli_fetch_assoc($result) ;
-    return $val ;    
 }
 ?>
