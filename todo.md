@@ -6,5 +6,10 @@
 -Fonctionnalites
     -Liste departemens OK
         -Nom de Manager OK
-        -Liste de membre de department ok
-    
+        -Liste de membre de department OK
+    -Fiche employees    
+        -Historique salaire     
+        -Historique employee    
+    -Barre de recherche     
+        -Resultat pagination en 20 par 20   
+        -Bouton next et back        

@@ -39,7 +39,7 @@ for($i=$current-$afficher;$i<$current;$i++){
     ?>
     <tr>
         <td><?= $liste[$i]['gender']?></td>
-        <td><?= $liste[$i]['first_name']  .'   '. $liste[$i]['last_name']?></td>
+        <td><a href="Fiche_emp.php?emp_no=<?= $liste[$i]['emp_no'] ?>"><?= $liste[$i]['first_name']  .'   '. $liste[$i]['last_name']?></a></td>
         <td><?= $liste[$i]['hire_date']?></td>
     </tr>
     <?php

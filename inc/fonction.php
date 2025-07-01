@@ -36,19 +36,93 @@ function getDept_emp($dept_no){
     }
 return 0 ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function get_employee_by_id($emp_no) {
+    $request = "select * from employees where emp_no = '%s'" ;
+    $request = sprintf($request, $emp_no) ;
+    $result = mysqli_query(dbconnect(), $request) ;
+    return mysqli_fetch_assoc($result) ;
+}
+function get_salary_by_id($emp_no) {
+    $request = "select salary, from_date, to_date from salaries where emp_no = '%s' order by from_date DESC" ;
+    $request = sprintf($request, $emp_no) ;
+    $result = mysqli_query(dbconnect(), $request) ;
+    $val = [] ;
+    while($row = mysqli_fetch_assoc($result)) {
+        $data = $row ;
+    }
+    return $val ;
+}
+function get_titles_by_id($emp_no) {
+    $request = "select title, from_date, to_date from titles where emp_no = '%s' order by from_date DESC" ;
+    $request = sprintf($request, $emp_no) ;
+    $result = mysqli_query(dbconnect(), $request) ;
+    $val = [] ;
+    while($row = mysqli_fetch_assoc($result)) {
+        $val = $row ;
+    }
+    return $val ;
+}
+function getEmp($emp_no){
+ $request="select * from departments where emp_no='%s'" ;
+$request=sprintf($request ,$emp_no) ;
+    $result=mysqli_query(dbconnect(),$request) ;
+            $val=mysqli_fetch_assoc($result) ;
+    return $val ;    
+
+}
 function Dept_name($dept_no){
     $request="select dept_name,dept_no from departments where dept_no='%s'" ;
 $request=sprintf($request ,$dept_no) ;
     $result=mysqli_query(dbconnect(),$request) ;
             $val=mysqli_fetch_assoc($result) ;
     return $val ;    
-}
-function getEmp($emp_no){
- $request="select * from departments where emp_no='%s'" ;
-$request=sprintf($request ,$dept_no) ;
-    $result=mysqli_query(dbconnect(),$request) ;
-            $val=mysqli_fetch_assoc($result) ;
-    return $val ;    
-
 }
 ?>
