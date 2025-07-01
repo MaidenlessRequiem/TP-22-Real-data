@@ -25,7 +25,7 @@ function getManager($id){
    return 0 ;
 }
 function getDept_emp($dept_no){
-    $request="select last_name,hire_date,first_name,gender,dept_no from employees join dept_emp on dept_emp.emp_no=employees.emp_no  where dept_emp.dept_no='%s'" ;
+    $request="select last_name,employees.emp_no,hire_date,first_name,gender,dept_no from employees join dept_emp on dept_emp.emp_no=employees.emp_no  where dept_emp.dept_no='%s'" ;
     $request=sprintf($request ,$dept_no) ;
     $result=mysqli_query(dbconnect(),$request) ;
     if(mysqli_num_rows($result)){
@@ -43,8 +43,56 @@ $request=sprintf($request ,$dept_no) ;
             $val=mysqli_fetch_assoc($result) ;
     return $val ;    
 }
-function getFiche_emp($emp_no) {
-    $request = '' ;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function get_employee_by_id($emp_no) {
+    $request = "select * from employees where emp_no = '%s'" ;
+    $request = sprintf($request, $emp_no) ;
+    $result = mysqli_query(dbconnect(), $request) ;
+    return mysqli_fetch_assoc($result) ;
+}
+function get_salary_by_id($emp_no) {
+    $request = "select salary, from_date, to_date from salaries where emp_no = '%s' order by from_date DESC" ;
+    $request = sprintf($request, $emp_no) ;
+    $result = mysqli_query(dbconnect(), $request) ;
+    $val = [] ;
+    while($row = mysqli_fetch_assoc($result)) {
+        $data = $row ;
+    }
+    return $val ;
+}
+function get_titles_by_id($emp_no) {
+    $request = "select title, from_date, to_date from titles where emp_no = '%s' order by from_date DESC" ;
+    $request = sprintf($request, $emp_no) ;
+    $result = mysqli_query(dbconnect(), $request) ;
+    $val = [] ;
+    while($row = mysqli_fetch_assoc($result)) {
+        $val = $row ;
+    }
+    return $val ;
+}
 ?>
